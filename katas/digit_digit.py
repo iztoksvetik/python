@@ -1,0 +1,2 @@
+def square(num: int) -> int:
+    return int(''.join([str(int(n)**2) for n in str(num)]))
